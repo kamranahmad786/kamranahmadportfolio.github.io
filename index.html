@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamran - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+body{
+    background-color: rgb(7, 9, 8);
+    color: white;
+    font-family: 'Poopins',sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-image: linear-gradient(to right, black,rgb(204, 242, 116));
+    color: aquamarine;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+nav ul li a:hover{
+    color: lavender;
+    font-size: 1rem;
+}
+
+main hr {
+    border: 0;
+    background:rgb(188, 152, 246);
+    height: 0.1rem;
+    margin: 40px 84px;
+}
+
+    
+.btn-style{
+ color: white;
+ text-decoration: none;
+}
+
+
+.left {
+  font-size: 1.9rem;
+  font-style: "roboto";
+  font-weight: bold;
+  padding-right:35%;
+}
+
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 120px 0;
+
+}
+.firstSection > div {
+
+    width: 30%;
+
+}
+
+.leftSection{
+    font-size: 3rem; 
+
+}
+
+.leftSection .buttons{
+    padding: 40px 0px;
+}
+
+.leftSection .btn{
+    padding: 15px;
+    background-color:violet ;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.rightSection{
+    width: 34px;
+
+}
+
+.rightSection img{
+    height: 500px;
+    width: 500px;
+}
+
+.purple{
+    color: rgb(190, 119, 245);
+}
+
+.text-gray{
+    color: rgb(236, 218, 238);
+    width: 20px;
+    margin-top: 10px;
+    
+}
+#element{
+    color: rgb(246, 216, 116);
+}
+
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondSection h1{
+    font-size: 1.9rem;
+}
+
+.secondSection .box {
+    background: lavender;
+    width: 76vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+
+}
+
+.secondSection .vertical {
+    height: 150px;
+    width: 1px;
+    background-color: white;
+    margin: 0 105px;
+}
+
+.image-top{
+    width: 50px;
+    position: relative;
+    top: -35px;
+    left: -25px;
+}
+
+.vertical-title{
+    position: relative;
+    top: 130px;
+    width: 145px;
+    left: -35px;
+
+}
+
+.vertical-desc{
+    position: relative;
+    top: 140px;
+    color: grey;
+    width: 135px;
+    font-size: 19px;
+    left: -35px;
+
+}
+
+.check-link {
+    position: relative;
+    top: 150px;
+    left: -40px;
+    font-size: 15px;
+
+}
+
+
+.skill-style {
+    color: white;
+
+}
+footer{
+    background-color: rgb(16, 10, 16);
+}
+
+.footer {
+    display: flex;
+    padding: 5px 50px;
+    justify-content: space-evenly;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer > div{
+    width: 200px;
+}
+
+.footer-first{
+    padding-right: 20%;
+    color: aqua;
+    font-size: 30px;
+    margin-top: 70px;
+}
+
+.footer-second{
+    font-size: 40px;
+    padding-left: 40%;
+    font-weight: bold;
+    margin-top: 70px;
+}
+
+.follow-sec{
+    font-size: 30px;
+    color: aqua;
+    margin-top: 5px;
+    padding-right: 15px;
+}
+
+
+
+.twitter{
+    font-size: 25px;
+    margin-top: 15px;
+    text-decoration: none;
+    
+}
+
+.insta {
+    font-size: 25px;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.linkdin {
+    font-size: 25px;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.link-style{
+    text-decoration: none;
+}
+footer .footer-right{
+    text-align: center;
+    color: grey;
+    padding: 20px 0px;
+
+
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+        <div class = "left">Kamran's Portfolio</div>
+        <div class = "right">
+            <ul>
+               <li><a href="/"> Home</a></li>
+               <li><a href="/"> About</a></li>
+                <li><a href="/"> Project</a></li>
+                <li><a href="/"> Connect Me</a></li>
+
+            </ul>
+        </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section class = "firstSection">
+            <div class="leftSection "> 
+                Hi, My name is <span class="purple">kamran </span>
+                <div>and I am a passionate </div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">
+                        <a class="btn-style" href="https://www.linkedin.com/in/mdkamranahmad/" target="_blank">
+                        Connect me on Linkdin</a>
+                    </button>
+                    <button class="btn">
+                        <a class="btn-style" href="https://github.com/kamranahmad786" target="_blank">
+                        Visit Github</a>
+                    </button>
+                    </div>
+                </div>
+            </div>
+           <div class="rightSection">
+            <img src="pg1.png" alt="">
+           </div>
+        </section>
+<hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have Done so far</span>
+            <h1>PROJECT </h1>
+            
+            <div class="box">
+                <div class="vertical">
+                    <img class ="image-top" src="GenAichatbot.png" alt="">
+                    <div class="vertical-title">
+                        GENERATIVE AI CHATBOT
+                    </div>
+                    <div class = "vertical-desc">
+                        <span class="skill-style">Skill</span>: HTML5, CSS3,
+                        JavaScript.
+                    </div>
+                    <div class="check-link">
+                        <p> <a href="superchatbot.ccbp.tech" target="_blank">&#x1F517;superchatbot.ccbp.tech</a></p>
+                    </div>
+                </div>
+
+
+                <div class="vertical">
+                    <img class ="image-top" src="foodmunchwebpage.png" alt="">
+                    <div class="vertical-title">
+                        FOOD  MUNCH WEBSITE
+                    </div>
+                    <div class = "vertical-desc">
+                        <span class="skill-style">Skill</span>: HTML5, CSS3,
+                        JavaScript.
+                    </div>
+                    <div class="check-link">
+                       <p><a href="orderwithfm.ccbp.tech" target="_blank">&#x1F517;orderwithfm.ccbp.tech</a></p>
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class ="image-top" src="todos.png" alt="">
+                    <div class="vertical-title">
+                        TODOS WEB APPLICATION
+                    </div>
+                    <div class = "vertical-desc">
+                        <span class="skill-style">Skill</span>: HTML5, CSS3,
+                        JavaScript.
+                    </div>
+                    <div class="check-link">
+                        <p><a href="addyourtodos.ccpb.tech" target="_blank">&#x1F517;addyourtodos.ccbp.tech</a></p>
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class ="image-top" src="meetourchatbot.png" alt="">
+                    <div class="vertical-title">
+                        MEET OUR CHATBOT
+                    </div>
+                    <div class = "vertical-desc">
+                        <span class="skill-style">Skill</span>: HTML5, CSS3,
+                        JavaScript.
+                    </div>
+                    <div class="check-link">
+                        <p><a href="smartchatbot.ccbp.tech" target="_blank">&#x1F517;smartchatbot.ccbp.tech</a></p>
+                    </div>
+                </div>
+ 
+                <div class="vertical">
+                    <img class ="image-top" src="wekipedia.png" alt="">
+                    <div class="vertical-title">
+                        WIKIPEDIA SEARCH APPLICATION
+                    </div>
+                    <div class = "vertical-desc">
+                        <span class="skill-style">Skill</span>: HTML5, CSS3,
+                        JavaScript.
+                    </div>
+                    <div class="check-link">
+                        <p><a href="itsyourwiki.ccbp.tech" target="_blank">&#x1F517;itsyourwiki.ccbp.tech</a></p>
+                    </div>
+                </div>
+             </div>
+
+
+        </section>
+    </main>
+
+    <footer>
+        <div class = "footer">
+            <div class="footer-first">
+                <h1>Kamran's Developer Portfolio</h1>
+            </div>
+            <div class = "footer-second">
+                <h1 class = "follow-sec">Contact Me</h1>
+
+            <div class="twitter">
+                
+                    <a class ="link-style" href="https://twitter.com/MdkamranAhmad13" target="_blank"> Twitter </a>
+    
+            </div>
+            <div class="insta">
+                <a class ="link-style" href="https://www.instagram.com/kamran_ahmad.092/" target="_blank"> Instagram </a>
+            </div>
+            <div class="linkdin">
+                <a class="link-style" href="https://www.linkedin.com/in/mdkamranahmad/" target="_blank"> Linkdin </a>
+            </div>
+            </div>
+        </div>
+     </div> 
+        <div class="footer-right">
+            Copyright&#169;kamransportfolio.com | All right reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Graphic Designer','Web Designer','Viedo Editor'],
+          typeSpeed: 100,
+        });
+      </script>
+</body>
+</html>
